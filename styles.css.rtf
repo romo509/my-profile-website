@@ -1,0 +1,120 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 * \{\
+  margin: 0;\
+  padding: 0;\
+  box-sizing: border-box;\
+  font-family: Arial, sans-serif;\
+\}\
+\
+body \{\
+  line-height: 1.6;\
+\}\
+\
+/* Navbar */\
+.navbar \{\
+  display: flex;\
+  justify-content: space-between;\
+  align-items: center;\
+  background: linear-gradient(90deg, #0f9b0f, #00c853);\
+  padding: 1rem;\
+  color: white;\
+\}\
+\
+.logo \{\
+  font-size: 1.5rem;\
+  font-weight: bold;\
+\}\
+\
+.nav-list \{\
+  list-style: none;\
+  display: flex;\
+\}\
+\
+.nav-list li \{\
+  margin-left: 20px;\
+\}\
+\
+.nav-list a \{\
+  color: white;\
+  text-decoration: none;\
+\}\
+\
+.menu-toggle \{\
+  display: none;\
+  font-size: 1.8rem;\
+  cursor: pointer;\
+\}\
+\
+/* Hero */\
+.hero \{\
+  background: linear-gradient(135deg, #00c853, #b2ff59);\
+  color: white;\
+  text-align: center;\
+  padding: 4rem 2rem;\
+\}\
+\
+/* Sections */\
+.section \{\
+  padding: 3rem 2rem;\
+\}\
+\
+.section.alt \{\
+  background: #f4f4f4;\
+\}\
+\
+/* Projects */\
+.project-grid \{\
+  display: grid;\
+  grid-template-columns: repeat(3, 1fr);\
+  gap: 20px;\
+\}\
+\
+.project-card \{\
+  background: white;\
+  padding: 1.5rem;\
+  border-radius: 8px;\
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);\
+\}\
+\
+.project-card a \{\
+  display: inline-block;\
+  margin-top: 10px;\
+  color: #00c853;\
+  text-decoration: none;\
+\}\
+\
+/* Footer */\
+footer \{\
+  text-align: center;\
+  padding: 1rem;\
+  background: #0f9b0f;\
+  color: white;\
+\}\
+\
+/* Responsive */\
+@media (max-width: 768px) \{\
+  .nav-list \{\
+    display: none;\
+    flex-direction: column;\
+    width: 100%;\
+    background: #0f9b0f;\
+  \}\
+\
+  .nav-list.active \{\
+    display: flex;\
+  \}\
+\
+  .menu-toggle \{\
+    display: block;\
+  \}\
+\
+  .project-grid \{\
+    grid-template-columns: 1fr;\
+  \}\
+\}}
