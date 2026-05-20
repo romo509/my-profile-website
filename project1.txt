@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 - Network Migration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Juniper to Cisco Migration</h1>
+</header>
+
+<section class="section">
+  <img src="https://source.unsplash.com/1200x400/?network,datacenter" alt="Network" style="width:100%; border-radius:8px;">
+  <p>
+    Led a full-scale migration from Juniper to Cisco infrastructure at a regional medical center.
+    Ensured minimal downtime while improving performance, scalability, and security.
+  </p>
+</section>
+
+</body>
+</html>
